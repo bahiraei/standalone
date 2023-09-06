@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Improve quality
+
+## 0.9.0
+
+* Update README.md
