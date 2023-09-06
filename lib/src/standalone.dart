@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:universal_html/html.dart' as html;
+import 'package:universal_html/html.dart' if (kIsWeb) 'dart:html' as html;
 
 typedef StandaloneWidgetBuilder = Widget Function(
   BuildContext context,
