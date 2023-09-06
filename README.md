@@ -13,7 +13,7 @@ Basically, this package checks if your website is installed on your device or no
 
 ```javascript
 import 'package:flutter/material.dart';
-import 'package:standalone/src/standalone.dart';
+import 'package:standalone/standalone.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
