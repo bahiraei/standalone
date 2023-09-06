@@ -9,3 +9,7 @@
 ## 0.9.0
 
 * Update README.md
+
+## 1.0.0
+
+* Update README.md
