@@ -1,6 +1,6 @@
 name: standalone
-description: standalone package
-version: 0.0.1
+description: A simple package to force the user to install pwa on mobile or browser
+version: 0.0.2
 homepage: https://github.com/bahiraei/standalone
 
 environment:

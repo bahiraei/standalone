@@ -1,9 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:universal_html/html.dart' as html;
 
 typedef StandaloneWidgetBuilder = Widget Function(
   BuildContext context,
-  bool isInstalled,
+  bool isStandalone,
   bool isMobile,
 );
 
@@ -19,7 +20,7 @@ class StandaloneBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return builder(
       context,
-      html.window.matchMedia('(display-mode: standalone)').matches,
+      kIsWeb && html.window.matchMedia('(display-mode: standalone)').matches,
       ['iPhone', 'iPad', 'iPod'].any(
         (word) => html.window.navigator.userAgent.contains(word),
       ),
