@@ -2,7 +2,7 @@
 # Standalone
 
 
-<img src="images/image.png" alt="drawing" height="600"/>
+<img src="https://raw.githubusercontent.com/bahiraei/standalone/main/.github/images/image.png" alt="drawing" height="600"/>
 
 A simple package to force the user to install pwa on mobile or browser.
 Basically, this package checks if your website is installed on your device or not.
