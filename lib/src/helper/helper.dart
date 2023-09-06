@@ -4,7 +4,7 @@ import 'package:standalone/src/helper/_h/web.dart';
 
 class Helper {
   static isStandalone() {
-    if (kIsWeb) {
+    if (!kIsWeb) {
       IOHelper.isStandalone();
     } else {
       WebHelper.isStandalone();
@@ -12,7 +12,7 @@ class Helper {
   }
 
   static isMobile() {
-    if (kIsWeb) {
+    if (!kIsWeb) {
       IOHelper.isMobile();
     } else {
       WebHelper.isMobile();
