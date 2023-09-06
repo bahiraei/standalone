@@ -1,1 +1,1 @@
-Call dart pub publish --dry-run
+Call flutter pub publish --dry-run

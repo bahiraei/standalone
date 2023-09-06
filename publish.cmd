@@ -1,1 +1,1 @@
-Call dart pub publish
+Call flutter pub publish
