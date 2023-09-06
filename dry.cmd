@@ -1,0 +1,1 @@
+Call dart pub publish --dry-run
